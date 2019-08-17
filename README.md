@@ -10,7 +10,7 @@ Rails ~> 5.2.3
 ruby 2.6.3  
 mysql 5.7  
 
-#### Getting started
+## Getting started
 1.git pull files  
 ```
 $ git clone https://github.com/jbdzizou/taskapp.git  
@@ -25,6 +25,6 @@ $ cd taskapp
 4.login to localhost(your chrome or etc)  
 http://localhost:3000 or http://address:3000
 
-##Usage
+## Usage
 Click the Bottan and Registration your task  
 you can check the task lists and edit and delete
