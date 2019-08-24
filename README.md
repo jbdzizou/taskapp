@@ -19,8 +19,8 @@ $ cd taskapp
 2.container build  
 `$ docker-compose up -d`
 
-3.Rails and database integration  
-`$ docker-compose run web rails db:migrate`
+3.Command to execute DB creation task in Rails container  
+`$ docker-compose run web bundle exec rake db:create`
 
 4.login to localhost(your chrome or etc)  
 http://localhost:3000 or http://address:3000
